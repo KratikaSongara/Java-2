@@ -1,0 +1,23 @@
+IS-A relationship is achieved through inheritance.
+
+HAS-A relationship is achieved when one class object becomes instance variable of another class.
+
+Example :-
+Suppose I have two classes Animal and Dog.
+Animal is my parent class and Dog is my child class.
+So, class Dog extends Animal
+Now here I can say that Dog is a animal and so IS-A relationship is achieved through inheritance.
+
+Now suppose, I have two other classes, which are, Nest and Eggs.
+So if I make an object of Eggs class and declare it as instance variable of Nest class, then I can say that Nest has Eggs.
+And so, this type of relationship is HAS-A relationship.
+
+
+ACCESS MODIFIERS :-
+1) Public :- It makes the class/variable/method/ constructor accessible everywhere. Anyone can access that.
+
+2) Private :- If we use private modifier and it will not be available outside tha class. Only members inside the same class can access it.
+
+3) Default :- It acts as public inside the same package but acts as private outside the package.
+
+4) Protected :- It is same a default modifier but the only difference is that it can be accessed in other package by the use of inheritance. So, if we use inheritance then we can use it outside the package.
